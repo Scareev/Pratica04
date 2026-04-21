@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="gui.LoginController"
+      alignment="CENTER"
+      spacing="12"
+      maxWidth="300"
+      style="-fx-padding: 40;">
+
+    <Label text="Entrar" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="nomeField" promptText="Nome"/>
+    <TextField fx:id="cpfField" promptText="CPF"/>
+
+    <Button text="Entrar" onAction="#onLogin" maxWidth="Infinity"/>
+
+    <Hyperlink text="Ainda não tem cadastro? Cadastre-se"
+               onAction="#onEsqueceuSenha"
+               style="-fx-font-size: 12px;"/>
+
+</VBox>

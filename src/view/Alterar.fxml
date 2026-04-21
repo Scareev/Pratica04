@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" style="-fx-padding: 20;"
+      xmlns="http://javafx.com/javafx/25"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="gui.AlterarController">
+
+    <Label text="Alterar Cliente"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <GridPane hgap="10" vgap="10">
+
+        <Label text="ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtId" editable="false"
+                   GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Nome:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtNome"
+                   GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="CPF:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtCpf"
+                   GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+        <Label text="Data de Nascimento:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtDataNascimento"
+                   GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+        <Label text="Telefone:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtTelefone"
+                   GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+        <Label text="Endereço:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtEndereco"
+                   GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+        <Label text="Bairro:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtBairro"
+                   GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+        <Label text="Cidade:" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtCidade"
+                   GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+        <Label text="Estado:" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtEstado"
+                   GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+
+        <Label text="CEP:" GridPane.rowIndex="9" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtCep"
+                   GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+
+    </GridPane>
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Salvar" fx:id="btnSalvar" onAction="#salvar"/>
+        <Button text="Cancelar" fx:id="btnCancelar" onAction="#cancelar"/>
+    </HBox>
+
+</VBox>

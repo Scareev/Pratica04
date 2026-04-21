@@ -7,9 +7,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Cadastro.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Login.fxml"));
         Scene scene = new Scene(loader.load());
-        stage.setTitle("Cadastro");
+        stage.setTitle("Login");
         stage.setScene(scene);
         stage.show();
     }

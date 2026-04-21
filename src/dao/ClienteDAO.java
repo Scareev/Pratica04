@@ -74,6 +74,7 @@ public class ClienteDAO {
     }
 
     // MAPEAR ResultSet -> Cliente
+    // private pq só vai ser usado AQUI
     private Cliente mapear(ResultSet rs) throws SQLException {
         Cliente c = new Cliente();
         c.setId(rs.getInt("id"));

@@ -47,6 +47,8 @@
     <HBox spacing="10" alignment="CENTER">
         <Button text="Cadastrar"  onAction="#onCadastrar"
                 style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-pref-width: 100;"/>
+        <Button text="Voltar" onAction="#onVoltar"
+                style="-fx-background-color: #534444; -fx-text-fill: white; -fx-pref-width: 100;"/>
     </HBox>
 
 </VBox>
