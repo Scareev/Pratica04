@@ -10,7 +10,7 @@
 
 <VBox spacing="12" style="-fx-padding: 20; -fx-background-color: #d5eef0;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ConsultaController">
 
-    <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Clientes cadastrados" />
+    <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Clientes cadastrados" textFill="#030032" />
 
     <TableView fx:id="tabelaClientes" style="-fx-border-color: #a5d2fa; -fx-border-width: 2px;" VBox.vgrow="ALWAYS">
         <columns>

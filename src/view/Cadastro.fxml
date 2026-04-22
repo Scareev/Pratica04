@@ -13,7 +13,7 @@
 
 <VBox alignment="TOP_CENTER" spacing="10" style="-fx-padding: 20; -fx-background-color: #d5eef0;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CadastroController">
 
-    <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Cadastro de Pessoa" />
+    <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Cadastro de Pessoa" textFill="#10004a" />
 
     <GridPane hgap="10" vgap="8">
         <padding><Insets bottom="10" top="10" /></padding>

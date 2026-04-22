@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" maxWidth="300" spacing="12" style="-fx-padding: 40; -fx-background-color: #d5eef0;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="gui.LoginController">
+<VBox alignment="CENTER" maxWidth="300" spacing="12" style="-fx-padding: 40; -fx-background-color: #d5eef0;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginController">
 
-    <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Entrar">
+    <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Entrar" textFill="#130a4a">
       <font>
          <Font name="SansSerif Regular" size="12.0" />
       </font></Label>
