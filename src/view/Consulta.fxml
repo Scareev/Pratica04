@@ -41,6 +41,12 @@
                 <Insets bottom="10" left="20" right="20" top="10" />
             </padding>
         </Button>
+
+        <Button onAction="#onCadastrar" style="-fx-background-color: #030032; -fx-text-fill: white; -fx-background-radius: 15px;" text="Novo Cadastro">
+            <padding>
+                <Insets bottom="10" left="20" right="20" top="10" />
+            </padding>
+        </Button>
     </HBox>
 
 </VBox>

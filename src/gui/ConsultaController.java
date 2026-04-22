@@ -55,6 +55,20 @@ public class ConsultaController {
     }
 
     @FXML
+    private void onCadastrar() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Cadastro.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(loader.load()));
+            stage.setTitle("Cadastro de Cliente");
+            stage.showAndWait();
+            carregarClientes(); // atualiza a tabela após voltar do cadastro
+        } catch (Exception e) {
+            mostrarAlerta("Erro ao abrir tela de cadastro.");
+        }
+    }
+
+    @FXML
     private void onAlterar() {
         Cliente c = tabelaClientes.getSelectionModel().getSelectedItem();
         if (c == null) return;
